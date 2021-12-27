@@ -1,0 +1,23 @@
+#tabla{
+    border: 1px solid;
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+#tabla,td{
+    text-align: center;
+    border: 1px solid;
+}
+/*
+tr:hover td{
+    background-color: blueviolet;
+    color: cornsilk;
+}*/
+
+.img{
+    width: 100px;
+}
+
+.detail{
+    border: solid 1px;
+}
