@@ -1,23 +1,37 @@
-#tabla{
+#tabla ,#carrito {
+
     border: 1px solid;
-    width: 1000px;
     border-collapse: collapse;
+    background-color: rgb(43, 90, 43);
+    color: rgb(196, 196, 196);
+
 }
 
-#tabla,td{
-    text-align: center;
-    border: 1px solid;
+.prod:hover td{
+    background-color: rgb(47, 172, 47);
+    
 }
-/*
-tr:hover td{
-    background-color: blueviolet;
-    color: cornsilk;
-}*/
 
 .img{
-    width: 100px;
+    border-radius: 62px;  
+    height: 70px;
 }
 
-.detail{
-    border: solid 1px;
+th ,._name , ._img , .checks{
+    text-align: center;
+}
+
+td{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+};
+
+td._price {
+    width: 111px;
+    text-align: right;
+}
+
+input{
+    display: inline-block;
 }
